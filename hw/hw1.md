@@ -56,6 +56,7 @@ train a classifier. You are suggested to compare two models:
 1. One hidden layer MLP with cross entropy loss
 2. One hidden layer MLP with hinge loss
 3. (bonus) MLP with two and three hidden layers
+
 *hint: you may refer to [Keras example](https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py)*.
 
 

@@ -27,17 +27,19 @@
       <div id="titlearea">
         <h2>Homework 3</h2>
       </div>
-      <div id="contentarea"><div class="cell markdown-cell"><h1>1. Course Project</h1>
-<p>This course requires each stduent to do a project with his team mates. Please form a team, list your team members, and provide the tentative the tentative title of team project.</p>
+      <div id="contentarea"><div class="cell markdown-cell"><p>due 11/13 00:00AM<br>
+Late submission will not be accepted.</p>
+</div><div class="cell markdown-cell"><h1>1. Course Project</h1>
+<p>This course requires each stduent to do a project with his/her team mates. Please form a team, list the names and cuids of your team members, and provide the tentative the tentative title of team project.</p>
 </div><div class="cell markdown-cell"><h1>2. Number of Parameters in Residule Net</h1>
 <p>ResNet has become one of the most important structures in deep CNNs. Table 1 in the <a href="https://arxiv.org/pdf/1512.03385.pdf">CVPR'16 paper</a> explains the 50 layer ResNet, which is roughly grouped into conv1, conv2, conv3, conv4, conv5, and final pooling plus 1000 fully connected layer.</p>
-<p>Keras provides an <a href="https://github.com/keras-team/keras-applications/blob/master/keras_applications/resnet50.py">implementation of 50-layer ResNet</a>. Please count how many parameters in conv1, conv2, conv3, conv4 and conv5. You can use Keras `model.count_parameters()' to verify your calculation.</p>
+<p>Keras provides an <a href="https://github.com/keras-team/keras-applications/blob/master/keras_applications/resnet50.py">implementation of 50-layer ResNet</a>. Please count how many parameters in conv1, conv2, conv3, conv4 and conv5, respectively. You can use Keras `model.count_parameters()' to verify your calculation.</p>
 </div><div class="cell markdown-cell"><h1>3. Fine tuning deep CNNs</h1>
 <p>The model trained from ImageNet gives you a lot of power to build new models. <a href="https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html">Keras tutorial: Fine-tuning the top layers of a a pre-trained network</a> shows how you can fine-tune an ImageNet model using very little data.</p>
-<p>We ask you to fine tune an AlexNet (or ResNet-50, if your computer is relatively powerful) for a face recognition problem. There are two classes:</p>
+<p>We ask you to fine tune an AlexNet (or ResNet-50, or other model trained from ImageNet) for a face recognition problem. There are two classes:</p>
 <ul>
-<li>Justin Bieber,     whose images are at <a href="http://Columbia6894.github.io/hw/hw3data/justin/x-FaceID-0.jpg">Columbia6894.github.io/hw/hw3data/justin/x-FaceID-0.jpg</a></li>
-<li>Jennifer Lawrance, whose images are at <a href="http://Columbia6894.github.io/hw/hw3data/jennifer/x-FaceID-0.jpg">Columbia6894.github.io/hw/hw3data/jennifer/x-FaceID-0.jpg</a><br>
+<li>Justin Bieber,     whose images are at <a href="http://Columbia6894.github.io/hw/hw3data/justin/x-FaceId-0.jpg">Columbia6894.github.io/hw/hw3data/justin/x-FaceId-0.jpg</a></li>
+<li>Jennifer Lawrance, whose images are at <a href="http://Columbia6894.github.io/hw/hw3data/jennifer/x-FaceId-0.jpg">Columbia6894.github.io/hw/hw3data/jennifer/x-FaceId-0.jpg</a><br>
 Note your can replace x with any number between 1 and 20.</li>
 </ul>
 <p>In this homework, you are asked to:<br>
